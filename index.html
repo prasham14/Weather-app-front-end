@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./style.css">
+  <title>Day#1 Climate Companion | Weather App | MrDeveloper</title>
+</head>
+
+<body>
+  <main class="app-container">
+    <section class="search-bar">
+      <i class='map-icon bx bxs-map'></i>
+      <input type="text" placeholder="Enter Location" spellcheck="false" class="search-input">
+      <button class="search-Btn">
+        <i class='bx bx-search'></i>
+      </button>
+    </section>
+    <!-- Error Message Section  -->
+    <section class="error-message">
+      <div class="error-box">
+        <img src="./error-removebg-preview (1).png" alt="Error Icon">
+        <p>Oops! Invaid Location</p>
+      </div>
+    </section>
+    <!-- Weather Data  -->
+    <section class="weather-data">
+      <img src="./snow.png" class="weather-icon">
+      <h1 class="temperature">22℃</h1>
+      <h2 class="city-name">Murree</h2>
+      <div class="weather-details">
+        <div class="details-col">
+          <img src="./humidity.png" alt="Humidity Icon">
+          <div>
+            <p class="humidity-value">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="details-col">
+          <img src="./wind.png" alt="wind icon">
+          <div>
+            <p class="wind-value">15 km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
